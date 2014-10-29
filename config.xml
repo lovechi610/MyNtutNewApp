@@ -6,10 +6,10 @@
         id        = "com.phonegap.ＭyNtutNewApp_102AC1450"
         version   = "1.0.0">
 
-    <name>Hello World</name>
+    <name>FindingDreamWorld</name>
 
     <description>
-        Hello World sample application that responds to the deviceready event.
+        FindingDreamWorld sample application that responds to the deviceready event.
     </description>
 
     <author href="http://phonegap.com" email="support@phonegap.com">
