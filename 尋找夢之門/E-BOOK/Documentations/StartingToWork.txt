@@ -1,0 +1,59 @@
+Thank you for downloading FPF Free Version.
+
+We have three special products.
+FPF Basic XML Version, FPF Pro PHP Version and FPF Pro ASP Version
+
+Please try to do what you wanna do with Free FPF, although it has less  features than the other versions. Write the names of your IMAGE or SWF formatted pages on XML file (xml/Pages.xml) You doesn't change name or path of files. Be sure you did according to ReadMe!.txt and publish easily. But firstly, please look at the Terms of Use in FPF website. :)
+
+For example,
+If you want 8 pages FPF please you remove <page src="pages/09.jpg"/> … <page src="pages/14.jpg"/> in xml/Pages.xml file. Edit width and height by width="368" height="450". And edit others items (for colors).
+
+<content width="368" height="450" bgcolor="cccccc" loadercolor="ffffff" panelcolor="5d5d61" buttoncolor="5d5d61" textcolor="ffffff">
+                <page src="pages/01.jpg"/>
+                <page src="pages/02.swf"/>
+                <page src="pages/03.swf"/>
+                <page src="pages/04.jpg"/>
+                <page src="pages/05.jpg"/>
+                <page src="pages/06.jpg"/>
+                <page src="pages/07.swf"/>
+                <page src="pages/08.jpg"/>
+</content>
+
+If you want 24 pages FPF please you add <page src="pages/15.jpg"/> … <page src="pages/24.jpg"/> in xml/Pages.xml file.
+
+FlashPageFlip.com text link where at the lower left corner is only for Free Version. This is removed in the other versions.
+
+Free Versions works like Basic XML Version. We advice FPF Basic XML Version to you if you don’t advanced user.
+
+You can make your own publications easily by using control panel of Pro ASP Version. Visit the control panel and upload your IMAGE or SWF formatted pages. Make unlimited category and add unlimited publications into these categories. It is very easy that using the control panel.
+
+Also in this version, users can be members of your publications, underline the words in pages, add notes, choose background images and sounds, tell their friends your publications. Pro ASP Version has also many properties like these.
+
+You must know ASP and MySQL in basic level for using Pro ASP Version.
+
+Requirements of web server for Pro ASP Version:
+ •  ASP Supported •  MySQL 4+ Installed •  FSO (File System Object) OR AspUpload Component Installed •  Jmail Component (Freeware) Installed
+
+You can make any changes if you purchase Source Codes. Discounts are going on in FPF Source Code Versions.
+
+We are ready to your questions.
+
+FAQ
+---
+http://www.flashpageflip.com/FAQ.asp?do=Show-All
+
+
+SUPPORT
+-------
+
+PAY ATTENTION!
+
+The same questions will not be replied which there are on the online FAQ system.
+
+We appreciate your interest in us. Surely we reply to your inquiry however unfortunately we won't respond if there are same questions and answers on the FAQ page. Therefore please firstly look at the About FPF, Documentations and Product's pages. If you have any question please search in the FAQ system. If you cannot find any solution please summarize and send us a short email. The content of your e-mail is being considered and we will get back to you soonest.
+
+e: info@flashpageflip.com
+w: www.flashpageflip.com
+
+Thanks.
+Flash Page Flip Team

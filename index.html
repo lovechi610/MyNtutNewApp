@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>大大安安想去哪？</title>
+<title>尋找夢之門*The Doors of Dream</title>
 <link rel="stylesheet" type="text/css" href="css/csshake.min.css">
 <link type="text/css" href="css/csshake.min.css">
 <style type="text/css">
@@ -27,15 +27,13 @@ function AlertIt(){
 	var myrandom = Math.round(Math.random()*2)
 	//一些白痴的話，用矩陣 Array
 	var messages = new Array()
-	messages[0] = "大大安安，想怎樣？"
-	messages[1] = "今天天氣好，想怎樣？"
-	messages[2] = "無聊嗎？來看影片～"
+	messages[0] = "歡迎來到Dream的幻想世界，想繼續探險嗎？"
+
 	//連結清單
 	var links = new Array()
-	links[0] = "http://www.google.com"
-	links[1] = "http://www.yahoo.com"
-	links[2] = "http://www.youtube.com"
-	links[3] = "http://www.ntut.edu.tw"
+links[0] = "尋找夢之門/index.html"
+	
+	
 	//呼叫確認視窗
 	var answer = confirm(messages[myrandom])
 	//重點來了，如果點「是」，就連去該變數所指的網站
@@ -48,11 +46,12 @@ function AlertIt(){
 <table width="100%" height ="100%" border="0" cellspacing="0" cellpadding="0">
   <tr>
     <td align="center" valign="middle">
-		<p><a href="camera.html">Hello, world</a>. - from JC ;) <a href="media.html">揪瞇</a></p>
-		<div class="shake">
+		<p><a href="camera.html">Hello, world</a>.Hi!你好，我叫做Dream，很高興認識你，
+        我想跟你分享我的冒險故事。<a href="media.html">E-Book</a></p>
+		<div class="shake shake-slow">
 			<a href="javascript:AlertIt();">
-				<img src="images/dAbHead.png" width="33%" height="auto">
-				<p>按我</p>
+				<img src="images/DreamCover.png" width="33%" height="auto">
+				<p>尋找夢之門</p>
 			</a>
 		</div>
 	</td>
