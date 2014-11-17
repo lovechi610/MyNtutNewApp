@@ -34,6 +34,7 @@ a {
 a:hover,
 a:active {
 	color: #777;
+	font-size: 120%;
 }
 
 a img {
