@@ -1,9 +1,12 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>大大安安想去哪？</title>
- <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+                          "http://www.w3.org/TR/html4/strict.dtd">
+    <html>
+      <head>
+        <title>Media Example</title>
+		<link rel="stylesheet" type="text/css" href="css/csshake.min.css">
+		<link type="text/css" href="css/csshake.min.css">
+        <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+        <script type="text/javascript" charset="utf-8" src="main.js"></script>
         <script type="text/javascript" charset="utf-8">
 
         // Wait for Cordova to load
@@ -90,58 +93,11 @@
         }
 
         </script>
-<style type="text/css">
-body {
-	background-image: url();
-	background-repeat: repeat;
-	
-}
-html, body , .outer, .inner {
-    height:100%;
-    width:100%;
-    margin:0;
-} 
-</style>
-</head>
-
-<body>
-
-<script type="text/javascript">
-function AlertIt(){
-	//亂數
-	var myrandom = Math.round(Math.random()*2)
-	//一些白痴的話，用矩陣 Array
-	var messages = new Array()
-	messages[0] = "大大安安，想怎樣？"
-	messages[1] = "今天天氣好，想怎樣？"
-	messages[2] = "無聊嗎？來看影片～"
-	//連結清單
-	var links = new Array()
-	links[0] = "http://www.google.com"
-	links[1] = "http://www.yahoo.com"
-	links[2] = "http://www.youtube.com"
-	links[3] = "http://www.ntut.edu.tw"
-	//呼叫確認視窗
-	var answer = confirm(messages[myrandom])
-	//重點來了，如果點「是」，就連去該變數所指的網站
-	if (answer){
-		window.location = links[myrandom]
-	} 
-}
-</script>
-
-<table width="100%" height ="100%" border="0" cellspacing="0" cellpadding="0">
-  <tr>
-    <td align="center" valign="middle">
-		<p>Hello, world. - from JC ;) <a href="media.html">揪瞇</a></p>
-		<a href="javascript:AlertIt();">
-			<img src="./img/dAbHead.png" width="33%" height="auto">
-			<p>按我</p>
-		</a>
-	</td>
-  </tr>
-</table>
-
-
-</body>
-</html>
+      </head>
+      <body>
+        <a href="#" class="btn large" onclick="playAudio('http://audio.ibeat.org/content/p1rj1s/p1rj1s_-_rockGuitar.mp3');">Play Audio</a>
+        <a href="#" class="btn large" onclick="pauseAudio();">Pause Playing Audio</a>
+        <a href="#" class="btn large" onclick="stopAudio();">Stop Playing Audio</a>
+        <p id="audio_position"></p>
+      </body>
+    </html>

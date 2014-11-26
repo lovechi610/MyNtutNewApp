@@ -6,10 +6,10 @@
         id        = "com.phonegap.dAbNewApp"
         version   = "1.0.0">
 
-    <name> Dream's Door</name>
+    <name>Hello World</name>
 
     <description>
-        Welcome to Dream's world.
+        Hello World sample application that responds to the deviceready event.
     </description>
 
     <author href="http://phonegap.com" email="support@phonegap.com">
