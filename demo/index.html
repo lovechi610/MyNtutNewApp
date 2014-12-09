@@ -8,11 +8,13 @@
 	<p>This Example just print's the raw accelerometer and gyro data. Will return null if no device information is found.</p>
 	<p>gyro.getFeatures: <span id="features"></span></p>
 	<span id="example"></span>
+    <div id="aaa"><font size="+6">AAA</font></div>
 	<script src="../js/gyro.js"></script>
 	<script>
 		gyro.startTracking(function(o) {
 			var b = document.getElementById('example'),
 					f = document.getElementById('features');
+					var a= document.getElementById('aaa');
 			f.innerHTML = gyro.getFeatures();
 			b.innerHTML = "<p> x = " + o.x + "</p>" +
 										"<p> y = " + o.y + "</p>" +
@@ -20,6 +22,7 @@
 										"<p> alpha = " + o.alpha + "</p>" +
 										"<p> beta = " + o.beta + "</p>" +
 										"<p> gamma = " + o.gamma + "</p>";
+		    a.style.left = a.offset.left+o.x+"px";
 		});
 	</script>
 </body>
